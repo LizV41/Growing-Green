@@ -1,0 +1,174 @@
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 100vh;
+}
+.plants1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.plants2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.plants3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+  width: 75%;
+}
+.bio{
+  background-color: #C8B88A;
+}
+.logo img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.persona img{
+  margin-left: 2rem;
+  width: 20%;
+}
+
+.persona h4 {
+  display: inline-block;
+  font-family: active, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #476930;
+  margin-left: 0.5rem;
+}
+
+.menu li{
+  list-style-type: none;
+  margin-left: 1rem;
+  padding: 0.75rem;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #476930;
+  font-size: 1rem;
+}
+.menu ul{
+  margin-top: 2rem;
+}
+
+a:hover li { 
+  background-color: #476930;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.bargraph h3{
+  background-color: #476930;
+  color: #fff;
+  font-family: active, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding-left: 1rem;
+  margin-right: 3rem;
+}
+.bargraph img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+.tasks h4{
+  background-color: #476930;
+  color: #fff;
+  font-family: active, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.outdoor h4{
+  position: relative; top: -4rem;
+}
+
+.tasks ul{
+  background-color: #BDD49B;
+  color: #476930;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  text-align: left;
+  z-index: 1;
+  list-style-type: circle;
+}
+
+.indoor ul{
+    position: relative; top: -3.3rem;
+}
+
+.outdoor ul{
+  position: relative; top: -7.3rem;
+}
+
+.graphs img{
+  display: block;
+  margin: auto;
+  width:45%;
+  padding: 1.5rem;
+}
+
+.icons{
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #C8B88A;
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.plants1{
+  margin-top: 2rem;
+}
+.plants1 img{
+  display: block;
+  margin: auto;
+  position: relative; top: -5.3rem;
+  z-index: 3;
+
+}
+.plants1 ul{
+  background-color: #BDD49B;
+  color: #476930;
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  list-style-type: none;
+  margin: 2rem;
+  position: relative; top: -9.5rem;
+  z-index: 4;
+}
+
