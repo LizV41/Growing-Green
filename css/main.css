@@ -144,7 +144,7 @@ a:hover li {
   text-align: center;
   background-color: #C8B88A;
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 .plants1{
@@ -153,7 +153,7 @@ a:hover li {
 .plants1 img{
   display: block;
   margin: auto;
-  position: relative; top: -5.3rem;
+  position: relative; top: -4.3rem;
   z-index: 3;
 
 }
@@ -168,7 +168,7 @@ a:hover li {
   text-align: center;
   list-style-type: none;
   margin: 2rem;
-  position: relative; top: -9.5rem;
+  position: relative; top: -8.5rem;
   z-index: 4;
 }
 
